@@ -26,7 +26,7 @@ for xi = 1 : size(X, 1)
     for ki = 1 : K
       X1 = X(xi, :);
       c1 = centroids(ki, :);
-      mintemp = (X1- c1)* (X1 - c1)';
+      mintemp = (X1- c1)* (X1 - c1);
       if(mintemp < mins)
           mins = mintemp;
           id = ki;
