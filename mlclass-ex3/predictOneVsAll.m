@@ -29,7 +29,7 @@ X = [ones(m, 1) X];
 %       are in rows, then, you can use max(A, [], 2) to obtain the max 
 %       for each row.
 %       
- pro = X * all_theta';
+ pro = X * all_theta;
  % m * num_labels
  kind = max(pro, [], 2);
  for i = 1: m
