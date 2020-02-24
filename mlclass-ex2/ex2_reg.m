@@ -2,6 +2,7 @@
 %
 %  Instructions
 %  ------------
+% change 1
 % 
 %  This file contains code that helps you get started on the second part
 %  of the exercise which covers regularization with logistic regression.
